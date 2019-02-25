@@ -24,12 +24,9 @@
 							</div>
 							<div class="offer">
 								<ul>
-									<li>6 Specialties</li>
-									<li>30 Tests and Treatments</li>
-									<li>1 Medical Consultation</li>
-									<li>1 Home Visit</li>
-									<li>No Pregnancy Care</li>
-									<li>No Assistance</li>
+									@foreach(explode(";",$package->getTranslatedAttribute('options')) as $option)
+									<li>{{$option}}</li>
+									@endforeach
 								</ul>
 							</div>
 							<div class="button">

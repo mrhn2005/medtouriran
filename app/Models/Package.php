@@ -13,5 +13,5 @@ class Package extends Model
         Resizable;
         
         
-    protected $translatable = ['title', 'subtitle', 'timeline','description','before_price','after_price'];
+    protected $translatable = ['title', 'subtitle', 'timeline','description','before_price','after_price','options'];
 }

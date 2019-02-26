@@ -72,8 +72,9 @@
 						
 						<!-- Doctor Container Start -->
 						<div class="doctor-inner">
+							<div class="row flex-row">
 						    @foreach($doctors as $doctor)
-							<div class="col-md-4 item">
+							<div class="col-lg-4 col-md-6 item">
 								<div class="inner">
 									<div class="thumb">
 										<img src="{{Voyager::image($doctor->thumbnail('medium', 'avatar'))}}" alt="{{$doctor->getTranslatedAttribute('name')}}">
@@ -104,6 +105,7 @@
 								</div>
 							</div>
                             @endforeach
+                            </div>
 						</div>
 						<!-- Doctor Container End -->
 

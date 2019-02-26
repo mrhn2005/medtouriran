@@ -9,7 +9,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row flex-row">
 			@foreach($benefits as $benefit)
 			<div class="col-sm-6 col-md-4 col-lg-4">
 				<div class="item wow fadeInLeft">

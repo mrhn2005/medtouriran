@@ -9,7 +9,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row flex-row">
 					<div class="col-md-12">
 						
 						<!-- Doctor Carousel Start -->

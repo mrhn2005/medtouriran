@@ -13,5 +13,5 @@ class Testimonial extends Model
         Resizable;
         
         
-    protected $translatable = ['name', 'position', 'quote','avatar'];
+    protected $translatable = ['name', 'position', 'quote'];
 }

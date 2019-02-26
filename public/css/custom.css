@@ -182,15 +182,25 @@ header .logo img {
     flex-direction: column;
     
   }
+  .flex-row .inner,
   .flex-row .blog .text,
+  .flex-row .item,
+  .flex-row .text,
   .flex-text {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-  }    
+  }  
+  .service-v1 .flex-row .item{
+    flex-direction: row;
+  }
+  .doctor-v3 .text h4 {
+    flex-grow:1;
+  }
 }
 
 .news-v1 .text p {
      text-align: justify; 
     
 }
+

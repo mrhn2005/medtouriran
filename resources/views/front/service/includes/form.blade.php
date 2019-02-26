@@ -7,9 +7,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<form action="{{route('category.request')}}" class="form-horizontal cform-2" method="post">
+				
+				<form action="{{route('category.request')}}" class="form-horizontal cform-2" method="post">
 					    @csrf
+					<div class="row">  
 						<div class="col-md-6">						
 							<div class="form-group">
                                 <div class="col-sm-12">
@@ -64,7 +65,8 @@
 			                    </div>
 			                </div>
 						</div>
-					</form>	
-				</div>
+					</div>
+				</form>	
+				
 			</div>
 		</section>

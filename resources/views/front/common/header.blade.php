@@ -1,10 +1,10 @@
 <header>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-3 logo">
+			<div class="col-lg-3 logo">
 				<a href="{{route('home')}}"><img src="{{Voyager::image(setting('site.logo'))}}" alt=""></a>
 			</div>
-			<div class="col-md-9 nav-wrapper">
+			<div class="col-lg-9 nav-wrapper">
 
 				<!-- Nav Start -->
 				<div class="nav">

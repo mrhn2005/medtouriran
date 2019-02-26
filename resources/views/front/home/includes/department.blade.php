@@ -14,17 +14,17 @@
 						
 						<!-- Department Tab Start -->
 						<div class="department-tab">
-
-							<ul class="nav nav-tabs col-md-4 {{$is_rtl?'col-sm-pull-10':''}}">
+							<div class="row">
+							<ul class="nav nav-tabs col-md-3 " role="tablist">
 							    @foreach($categories->where('parent_id',null)->all() as $category)
-								<li class="{{$loop->first?'active':''}}"><a href="#tab{{$category->id}}" data-toggle="tab" aria-expanded="true"><span class="{{$category->icon}}"></span>{{$category->getTranslatedAttribute('title')}}</a></li>
+								<li class="nav-item"><a href="#tab{{$category->id}}" class="nav-link {{$loop->first?'active':''}}" data-toggle="tab" ><span class="{{$category->icon}}"></span>{{$category->getTranslatedAttribute('title')}}</a></li>
 								@endforeach
 							</ul>
 							
 							<!-- Tab Content Start -->
-							<div class="tab-content col-md-8 {{$is_rtl?'col-sm-push-2':''}}">
+							<div class="tab-content col-md-9">
 							    @foreach($categories->where('parent_id',null)->all() as $category)
-								<div class="tab-pane fade {{$loop->first?'active':''}} in" id="tab{{$category->id}}">
+								<div class="tab-pane {{$loop->first?'active':''}} in" id="tab{{$category->id}}">
 									<div class="row">										
 										<div class="col-md-7">
 											<div class="department-content">
@@ -60,7 +60,7 @@
 								</div>
 								@endforeach
 							</div>
-							
+							</div>
 							<!-- Tab Content End -->
 						</div>
 						<!-- Department Tab End -->

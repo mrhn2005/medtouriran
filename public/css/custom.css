@@ -1,0 +1,196 @@
+.social-pad{
+	padding-top:5px;
+}
+.padd-bottom{
+	padding-bottom:30px;
+}
+
+.language-selector{
+	display: inline;
+    float: left;
+    padding-right: 30px;
+    margin-top: -5px;
+}
+
+.language-selector .dropdown-menu{
+	min-width:100px;
+	right:auto;
+}
+
+@media only screen and (max-width: 750px) and (min-width: 0){
+	.language-selector{
+		display: inline;
+	    float:none;
+
+	}
+	
+	.list-info{
+		padding-top:10px;
+	}
+	
+
+	.language-selector .dropdown-menu{
+		margin-top:10px;
+	}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 0){
+    .page-wrapper {
+    	padding-top:55px;
+    }
+    
+	
+}
+.slicknav_menu {
+    background: #4C4C4C!important;
+}
+
+.flag{
+	height:12px;
+}
+
+header .logo img {
+    max-height: 50px;
+    margin: 24px 0 10px;
+}
+
+.service-v1 .item {
+    min-height: 120px;
+}
+.department-content ul a{
+	color:#656464;
+}
+
+.sticky{
+    background-color: rgba(255,255,255,0.8);
+}
+
+.page-banner{
+        padding-bottom: 450px;
+}
+
+.partner-carousel .owl-item img {
+
+    max-width: 150px;
+}
+
+.pricing-v1 .pricing-item .price .hexa .amount {
+
+	font-size: 40px;
+	padding-top: 6px;
+}
+.pricing-v1 .pricing-item .price .hexa .time {
+	padding-top: 0px;	
+}
+
+.pricing-v1 .pricing-item .price .hexa {
+    height: 80px;
+	
+}
+
+.flag-link{
+	font-family: calibri;
+}
+
+/*loader*/
+.lds-heart {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  transform: rotate(45deg);
+  transform-origin: 32px 32px;
+}
+.lds-heart div {
+  top: 23px;
+  left: 19px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background: #1AABDD;
+  animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.lds-heart div:after,
+.lds-heart div:before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 26px;
+  height: 26px;
+  background: #1AABDD;
+}
+.lds-heart div:before {
+  left: -17px;
+  border-radius: 50% 0 0 50%;
+}
+.lds-heart div:after {
+  top: -17px;
+  border-radius: 50% 50% 0 0;
+}
+@keyframes lds-heart {
+  0% {
+    transform: scale(0.95);
+  }
+  5% {
+    transform: scale(1.1);
+  }
+  39% {
+    transform: scale(0.85);
+  }
+  45% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+/*loader*/
+
+.department-tab .nav{
+  display: block;
+}
+
+@media only screen and (min-width : 481px) {
+  .flex-row.row {
+    display: flex;
+	 flex-wrap: wrap;
+  }
+  .flex-row.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-row.row:after, 
+  .flex-row.row:before {
+	 display: flex;
+  }
+  .flex-row.row > [class*='col-'] > .box {
+    display: flex;
+	 flex: 1;
+  }
+  .flex-row .owl-stage{
+    display:flex;
+  }
+  .flex-row .owl-item,
+  .excerp-height,
+  .flex-row .thumbnail1,
+  .flex-row .caption {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    
+  }
+  .flex-row .blog .text,
+  .flex-text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }    
+}
+
+.news-v1 .text p {
+     text-align: justify; 
+    
+}

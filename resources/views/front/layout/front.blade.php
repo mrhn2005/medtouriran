@@ -36,8 +36,8 @@
 	<link href="/images/favicon.png" rel="shortcut icon" type="/image/png">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="/css/bootstrap.min.css">
-	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
+	<!--<link rel="stylesheet" href="/css/bootstrap.min.css">-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/css/slicknav.css">
 	<link rel="stylesheet" href="/css/superfish.css">
 	@if(!$is_rtl)
@@ -50,11 +50,16 @@
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/responsive.css">
 	<link rel="stylesheet" href="/css/toastr.min.css">
-	@if($is_rtl)
+	@if(!$is_rtl)
+		<link rel="stylesheet" href="/css/ltr.css?t={{time()}}"/>
+		
+	@else
+		<link rel="stylesheet" href="/css/bootstrap4rtl.css?t={{time()}}" />
 		<!--<link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">-->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.min.css" type="text/css" />
+		<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.min.css" type="text/css" />-->
 		<link rel="stylesheet" href="/css/rtl.css?t={{time()}}"/>
 	@endif
+	
 	<link rel="stylesheet" href="/css/custom.css?t={{time()}}"/>
 	<!--<script src="/js/modernizr.min.js"></script>-->
     
@@ -78,7 +83,8 @@
 
 	<!-- Scripts -->
 	<script src="/js/jquery-2.2.4.min.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
+	<!--<script src="/js/bootstrap.min.js"></script>-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<script src="/js/jquery.slicknav.min.js"></script>	
 	<script src="/js/hoverIntent.js"></script>
 	<script src="/js/superfish.js"></script>
@@ -90,7 +96,7 @@
 	<script src="/js/jquery.magnific-popup.min.js"></script>
 	<!--<script src="/js/color-switcher.js"></script>-->
 	<script src="/js/toastr.min.js"></script>
-	@if(Helper::isRtl())
+	@if($is_rtl)
 	<script src="/js/custom-rtl.js"></script>
 	@else
 	<script src="/js/custom.js"></script>

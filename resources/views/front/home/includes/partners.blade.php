@@ -16,9 +16,10 @@
 						    @foreach($partners as $partner)
 							<div class="item wow fadeInUp">
 								<div class="inner">
-									<a href="{{$partner->link}}" target="_blank"><img src="{{Voyager::image($partner->image)}}" alt="{{$partner->title}}"  ></a>
+									<a href="" target="_blank"><img style="width:150px;height:130px" src="{{Voyager::image($partner->image)}}" alt="{{$partner->title}}"></a>
 								</div>
 							</div>
+							
 							@endforeach
 						</div>
 

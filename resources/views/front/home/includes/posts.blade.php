@@ -13,9 +13,9 @@
 					<div class="col-md-12">
 						
 						<!-- News Carousel Start -->
-						<div class="news-carousel">
+						<div class="news-carousel flex-row">
                             @foreach($posts as $post)
-							<div class="item wow fadeInUp blog">
+							<div class="item wow fadeInUp blog thumbnail1">
 								<div class="thumb thumb-container">
 								    <div class="image-container">
     									<img src="{{Voyager::image($post->thumbnail('medium'))}}" alt="{{$post->slug}}">

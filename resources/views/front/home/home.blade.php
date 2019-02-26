@@ -22,15 +22,15 @@
        right: 0;
     }
     
-    .excerp-height{
-        min-height:120px;
-    }
-    .blog .text {
-        min-height: 250px;
-    }
-    .blog h3 {
-        min-height:50px;
-    }
+    /*.excerp-height{*/
+    /*    min-height:120px;*/
+    /*}*/
+    /*.blog .text {*/
+    /*    min-height: 250px;*/
+    /*}*/
+    /*.blog h3 {*/
+    /*    min-height:50px;*/
+    /*}*/
     .page-banner{
 	    padding-top:320px;
     }

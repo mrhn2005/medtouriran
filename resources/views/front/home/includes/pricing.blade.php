@@ -9,10 +9,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row flex-row">
 					@foreach($packages as $package)
 					<div class="col-md-4">
-						<div class="pricing-item wow fadeInLeft">
+						<div class="pricing-item wow fadeInLeft thumbnail1">
 							<div class="title">{{$package->getTranslatedAttribute('title')}}</div>
 							<div class="subtitle">{{$package->getTranslatedAttribute('subtitle')}}</div>
 							<div class="price">
@@ -22,7 +22,7 @@
 									<div class="time">{{$package->getTranslatedAttribute('after_price')}}</div>
 								</div>
 							</div>
-							<div class="offer">
+							<div class="offer flex-text">
 								<ul>
 									@foreach(explode(";",$package->getTranslatedAttribute('options')) as $option)
 									<li>{{$option}}</li>

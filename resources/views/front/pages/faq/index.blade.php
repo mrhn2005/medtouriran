@@ -1,16 +1,15 @@
 @extends('front.layout.front')
 
 @section('title')
-{{setting(App::getLocale().'.title')}} | {{ $doctor->getTranslatedAttribute('name') }}
+{{setting(App::getLocale().'.title')}}
 @endsection
-
 
 @section('style')
-<style>
 
-</style>
+<link rel="stylesheet" href="/css/bootstrap.min.css">
 
 @endsection
+
 
 @section('content')	
 	<div class="page-wrapper">
@@ -24,14 +23,19 @@
 		<!-- Header End -->
 
 
-<hr>
 		
-		
-		<!-- Blog Start -->
-            @include('front.doctor.includes.body')
-		<!-- Blog End -->
-        
 
+		<!-- About Start -->
+		<hr>
+		
+		
+		{!!  $page->getTranslatedAttribute('body') !!}
+						
+					
+		
+		<!-- About End -->
+		
+		<!-- aboutend -->
 
 		<!-- Footer Social Start -->
 			@include('front.common.footer')
@@ -48,13 +52,6 @@
 @endsection
 
 @section('js')
-<script>
-	$(function(){
-  $('.bxslider').bxSlider({
-    mode: 'fade',
-    captions: true,
-    slideWidth: 800
-  });
-});
-</script>
+
+<script src="/js/bootstrap.min.js"></script>
 @endsection

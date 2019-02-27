@@ -37,15 +37,15 @@
 						<!-- Doctor Detail Tab Start -->
 						<div class="doctor-detail-tab">
 							<ul class="nav nav-tabs">
-								<li class="active"><a href="doctors-detail.html#tab1" data-toggle="tab" aria-expanded="true">About</a></li>
-								<li class=""><a href="doctors-detail.html#tab2" data-toggle="tab" aria-expanded="false">Testimonial</a></li>
-								<li class=""><a href="doctors-detail.html#tab3" data-toggle="tab" aria-expanded="false">Ask a Question</a></li>
-								<li class=""><a href="doctors-detail.html#tab4" data-toggle="tab" aria-expanded="false">Contact</a></li>
+								<li class="nav-item" ><a class="nav-link active" href="#tab1" data-toggle="tab" aria-expanded="true">About</a></li>
+								<li class="nav-item"><a class="nav-link" href="#tab2" data-toggle="tab" aria-expanded="false">Testimonial</a></li>
+								<li class="nav-item"><a class="nav-link" href="#tab3" data-toggle="tab" aria-expanded="false">Ask a Question</a></li>
+								<li class="nav-item"><a class="nav-link" href="#tab4" data-toggle="tab" aria-expanded="false">Contact</a></li>
 							</ul>
 							
 							<!-- Tab Content Start -->
 							<div class="tab-content">
-								<div class="tab-pane fade active in" id="tab1">
+								<div class="tab-pane fade show active in" id="tab1" role="tabpanel">
 									<div class="row">										
 										<div class="col-md-12">
 											<div class="content">
@@ -56,7 +56,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="tab-pane fade" id="tab2">
+								<div class="tab-pane fade" id="tab2" role="tabpanel">
 									<div class="row">										
 										<div class="col-md-12">
 											<div class="content">
@@ -66,7 +66,7 @@
 									</div>
 								</div>
 
-								<div class="tab-pane fade" id="tab3">
+								<div class="tab-pane fade" id="tab3" role="tabpanel">
 									<div class="row">
 										<div class="col-md-12">
 											<div class="content">
@@ -111,7 +111,7 @@
 									</div>
 								</div>
 
-								<div class="tab-pane fade" id="tab4">
+								<div class="tab-pane fade" id="tab4" role="tabpanel">
 									<div class="row">
 										<div class="col-md-12">
 											<div class="content">									
@@ -166,7 +166,7 @@
 									</div>									
 								</div>
 
-								<div class="tab-pane fade" id="tab5">
+								<div class="tab-pane fade" id="tab5" role="tabpanel">
 									<div class="row">
 										<div class="col-md-7">
 											<div class="content">
@@ -213,3 +213,31 @@
 			</div>
 		</section>
 		<!-- Doctor End -->
+		
+		@if($doctor->images)
+		<!-- Doctors Start -->
+		<section class="doctor-v2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="heading-normal">
+							<h2>Photos</h2>
+						</div>
+					</div>
+				</div>
+				<div class="gap-small"></div>
+				<div class="row">
+					<div class="col-md-12">
+						
+						<div class="bxslider">
+						  @foreach(json_decode($doctor->images) as $image)
+						  <div><img src="{{Voyager::image($image)}}" title="{{ $doctor->getTranslatedAttribute('name') }}"></div>
+						  @endforeach
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Doctors End -->
+		@endif

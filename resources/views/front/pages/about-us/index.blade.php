@@ -53,7 +53,7 @@
 
 					<div class="col-md-4 wow fadeInUp">
 						<h2>Who We Are</h2>
-						{!! $page->body !!}
+						{!! $page->getTranslatedAttribute('body') !!}
 						
 					</div>
 					<div class="col-md-4 wow fadeInRight">

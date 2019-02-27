@@ -134,3 +134,8 @@ header .nav-wrapper ul {
     
 }
 
+.faq .panel-group .panel-heading a:after {
+	
+		left:20px !important;
+		right:auto;
+	}

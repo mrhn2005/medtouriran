@@ -22,29 +22,10 @@
 		<!-- Header End -->
 
 
+		<hr>
 		
 		
-		
-		
-			<!-- Banner Start -->
-		<div class="page-banner" style="background:url({{isset($page->image)?Voyager::image($page->image):'/images/about.jpg'}}) no-repeat;background-size: cover;">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="banner-text">
-							<h1>{{ $page->getTranslatedAttribute('title') }}</h1>
-							<!--<ul>-->
-							<!--	<li><a href="home-layout-1.html">Home</a></li>-->
-							<!--	<li><i class="fa fa-angle-right"></i></li>-->
-							<!--	<li>Blog</li>-->
-							<!--</ul>-->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Banner End -->
+	
 		
 		
 		<!-- Blog Start -->

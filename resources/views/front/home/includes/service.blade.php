@@ -4,7 +4,7 @@
 			<div class="col-md-12">
 				<div class="heading wow fadeInUp">
 					<h2>@lang('home.services')</h2>
-					<p>We Are Here to Provide You Awesome Service Always</p>
+					<p>@lang('home.services_sub')</p>
 					<div class="sep"></div>
 				</div>
 			</div>

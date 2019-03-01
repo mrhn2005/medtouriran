@@ -4,8 +4,8 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="heading wow fadeInUp">
-							<h2>Testimonial</h2>
-							<p>Our Happy Clients Tell About Us</p>
+							<h2>{{__('home.testimonial')}}</h2>
+							<p>{{__('home.testimonial_sub')}}</p>
 							<div class="sep sep-white"></div>
 						</div>
 					</div>
@@ -24,13 +24,13 @@
 												<img src="{{Voyager::image($testimonial->thumbnail('small', 'avatar'))}}" alt="">
 											</div>
 											<div class="text">
-												<h3>{{$testimonial->getTranslatedAttribute('name')}} </h3>
-												<h4>{{$testimonial->getTranslatedAttribute('position')}}</h4>
+												<h3>{{$testimonial->name}} </h3>
+												<h4>{{$testimonial->position}}</h4>
 											</div>
 										</div>
 										<div class="comment">
 											<p>
-												{{$testimonial->getTranslatedAttribute('quote')}}
+												{{$testimonial->quote}}
 											</p>
 											<div class="icon"></div>
 										</div>									

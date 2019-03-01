@@ -53,7 +53,7 @@ class HomeController extends Controller
         $benefits=Benefit::withTranslations(App::getLocale())->get();
         $posts=Post::withTranslations(App::getLocale())->orderBy('created_at','desc')->limit($this->post_per_home)->get();
         $doctors=Doctor::withTranslations(App::getLocale())->orderBy('created_at','desc')->limit($this->doctor_per_home)->get();
-        $testimonials=Testimonial::withTranslations(App::getLocale())->orderBy('created_at','desc')->limit($this->testimonial_per_home)->get();
+        $testimonials=Testimonial::where('language',App::getLocale())->orderBy('created_at','desc')->limit($this->testimonial_per_home)->get();
         $packages=Package::withTranslations(App::getLocale())->orderBy('created_at','desc')->limit($this->package_per_home)->get();
         $banners=Banner::withTranslations(App::getLocale())->limit($this->banner_per_home)->get();
         $partners=Partner::all();
@@ -111,6 +111,10 @@ class HomeController extends Controller
     }
     
     
+    
+    public function package_show(Package $package, $slug=""){
+        return view('front.packages.index',compact('package'));
+    }
     
     public function local_switch($local){
          return redirect($local);

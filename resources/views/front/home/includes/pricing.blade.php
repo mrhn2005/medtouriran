@@ -3,8 +3,8 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="heading wow fadeInUp">
-							<h2>Pricing</h2>
-							<p>We are Offering Special Discounts Now</p>
+							<h2>{{__('home.packages')}}</h2>
+							<p>{{__('home.packages_sub')}}</p>
 							<div class="sep"></div>
 						</div>
 					</div>
@@ -30,7 +30,7 @@
 								</ul>
 							</div>
 							<div class="button">
-								<a href="#">Select</a>
+								<a href="{{route('package.show',[$package->id])}}">{{__('home.select')}}</a>
 							</div>
 						</div>
 					</div>

@@ -1,4 +1,4 @@
-<h3>Contact Us</h3>
+<h3>{{__('home.contact')}}</h3>
 <div class="contact-item">
 	<div class="icon"><i class="fa fa-map-marker"></i></div>
 	<div class="text">{{setting(App::getLocale().'.address')}}</div>

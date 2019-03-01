@@ -23,7 +23,7 @@
 						</p>
 					</div>
 					<div class="col-sm-6 col-md-3 col-lg-3 footer-col">
-						<h3>Latest News</h3>
+						<h3>@lang('home.news')</h3>
 						@foreach($latest_posts as $post)
 						<div class="news-item">
 							<div class="news-title"><a href="{{route('blog.show',[$post->id,$post->getTranslatedAttribute('slug')])}}"> {{$post->getTranslatedAttribute('excerpt')}}</a></div>
@@ -32,7 +32,7 @@
 						@endforeach
 					</div>
 					<div class="col-sm-6 col-md-3 col-lg-3 footer-col">
-						<h3>Important Links</h3>
+						<h3>@lang('home.important_links')</h3>
 						<div class="row">
 						    @foreach ($links->chunk(4) as $chunk)
 							<div class="col-md-6">
@@ -60,7 +60,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 copyright">
-						Copyright &copy; 2019, MedTourIran. All Rights Reserved.
+						Copyright &copy; 2019, <a href="{{route('home')}}">MedTourIran</a>. All Rights Reserved.
 					</div>
 					<div class="col-md-6 footer-menu">
 						<ul>

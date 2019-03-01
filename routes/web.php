@@ -30,6 +30,8 @@ Route::middleware(['web', 'localized'])
     Route::get('/service/{category}/{slug}','Front\HomeController@category_show')->name('category.show');
     Route::post('/service/request/store','Front\HomeController@category_request')->name('category.request');
     
+    Route::get('/package/{package}/{slug?}','Front\HomeController@package_show')->name('package.show');
+    
 });
 
 

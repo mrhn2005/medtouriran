@@ -14,17 +14,17 @@
 						<div class="col-md-6">						
 							<div class="form-group">
                                 <div class="col-sm-12">
-                                    <input type="text" class="form-control" placeholder="First Name" name="first_name" required>
+                                    <input type="text" class="form-control" placeholder="{{__('home.first_name')}}" name="first_name" required>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-12">
-                                    <input type="text" class="form-control" placeholder="Last Name" name="last_name" required>
+                                    <input type="text" class="form-control" placeholder="{{__('home.last_name')}}" name="last_name" required>
                                 </div>
                             </div>
 							<div class="form-group">
                                 <div class="col-sm-12">
-                                    <input type="email" class="form-control" placeholder="Email Address" name="email" required>
+                                    <input type="email" class="form-control" placeholder="{{__('home.email')}}" name="email" required>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -56,12 +56,12 @@
                             @endif
 							<div class="form-group">
                                 <div class="col-sm-12">
-                                    <textarea name="message" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
+                                    <textarea name="message" class="form-control" cols="30" rows="10" placeholder="{{__('home.message')}}"></textarea>
                                 </div>
                             </div>
                             <div class="form-group">
 			                    <div class="col-sm-12">
-			                        <input type="submit" value="Book Now" class="btn btn-success">
+			                        <input type="submit" value="{{__('home.book_now')}}" class="btn btn-success">
 			                    </div>
 			                </div>
 						</div>

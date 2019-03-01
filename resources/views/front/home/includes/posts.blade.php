@@ -3,8 +3,8 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="heading wow fadeInUp">
-							<h2>Latest News</h2>
-							<p>See All Our Updated and Latest News</p>
+							<h2>{{__('home.news')}}</h2>
+							<p>{{__('home.news_sub')}}</p>
 							<div class="sep"></div>
 						</div>
 					</div>
@@ -32,7 +32,7 @@
 										{{$post->getTranslatedAttribute('excerpt')}}
 									</p>
 									<p class="button">
-    									<a href="{{route('blog.show',[$post->id,$post->slug])}}">Read More</a>
+    									<a href="{{route('blog.show',[$post->id,$post->slug])}}">{{__('read_more')}}</a>
     								</p>
 								</div>
 							</div>

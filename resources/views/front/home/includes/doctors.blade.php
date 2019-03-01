@@ -3,8 +3,8 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="heading wow fadeInUp">
-							<h2>Our Qualified Doctors</h2>
-							<p>Meet with All Our Qualified Doctors</p>
+							<h2>{{__('home.doctors')}}</h2>
+							<p>{{__('home.doctors_sub')}}</p>
 							<div class="sep"></div>
 						</div>
 					</div>

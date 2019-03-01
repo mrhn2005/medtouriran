@@ -12,7 +12,7 @@ class Page extends Model
     use Translatable,
         HasRelationships;
 
-    protected $translatable = ['title', 'slug', 'body'];
+    protected $translatable = ['title', 'slug', 'body','excerpt'];
 
     /**
      * Statuses.

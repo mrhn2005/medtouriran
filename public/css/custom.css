@@ -101,6 +101,9 @@ header .logo img {
 #status {
   left:auto;
   top:auto;
+      justify-content: center;
+    display: flex;
+    align-items: center;
 }
 .lds-heart {
   display: inline-block;
@@ -224,3 +227,4 @@ header .logo img {
 
     left:20px;
 }
+

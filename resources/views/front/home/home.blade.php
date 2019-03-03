@@ -1,3 +1,14 @@
+<?php 
+if($is_rtl){
+	$fade='fadeInRight';
+	$fader='fadeInLeft';
+}else{
+	$fade='fadeInLeft';
+	$fader='fadeInRight';
+}
+
+?>
+
 @extends('front.layout.front')
 
 @section('title')

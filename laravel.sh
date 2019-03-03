@@ -1,3 +1,4 @@
+git config core.autocrlf true
 rm hello-world.php php.ini README.md
 
 # Install and configure PHP 7.1 Ondrej Repository

@@ -40,9 +40,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/css/slicknav.css">
 	<link rel="stylesheet" href="/css/superfish.css">
-	@if(!$is_rtl)
+	
 	<link rel="stylesheet" href="/css/animate.css">
-	@endif
+	
 	<link rel="stylesheet" href="/css/jquery.bxslider.css">
 	<link rel="stylesheet" href="/css/hover.css">
 	<link rel="stylesheet" href="/css/magnific-popup.css">

@@ -3,7 +3,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="heading-normal">
-							<h2>Request an {{$category->title}} Package</h2>
+							<h2>Request {{$category->title}} Package</h2>
 						</div>
 					</div>
 				</div>

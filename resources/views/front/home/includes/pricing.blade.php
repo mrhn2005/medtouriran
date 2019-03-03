@@ -12,7 +12,7 @@
 				<div class="row flex-row">
 					@foreach($packages as $package)
 					<div class="col-md-4">
-						<div class="pricing-item wow fadeInLeft thumbnail1">
+						<div class="pricing-item wow {{$fade}} thumbnail1">
 							<div class="title">{{$package->getTranslatedAttribute('title')}}</div>
 							<div class="subtitle">{{$package->getTranslatedAttribute('subtitle')}}</div>
 							<div class="price">

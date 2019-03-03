@@ -32,7 +32,7 @@
 										{{$post->getTranslatedAttribute('excerpt')}}
 									</p>
 									<p class="button">
-    									<a href="{{route('blog.show',[$post->id,$post->slug])}}">{{__('read_more')}}</a>
+    									<a href="{{route('blog.show',[$post->id,$post->slug])}}">{{__('home.read_more')}}</a>
     								</p>
 								</div>
 							</div>

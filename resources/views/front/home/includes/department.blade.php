@@ -3,8 +3,8 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="heading wow fadeInUp">
-							<h2>{{__('departments')}}</h2>
-							<p>{{__('departments_sub')}}</p>
+							<h2>{{__('home.departments')}}</h2>
+							<p>{{__('home.departments_sub')}}</p>
 							<div class="sep"></div>
 						</div>
 					</div>
@@ -47,7 +47,7 @@
 													@endforeach
 												</div>
 												<p class="button">
-													<a href="{{route('category.show',[$category->id,$category->slug])}}">{{__('view_details')}}</a>
+													<a href="{{route('category.show',[$category->id,$category->slug])}}">{{__('home.view_details')}}</a>
 												</p>											
 											</div>
 										</div>

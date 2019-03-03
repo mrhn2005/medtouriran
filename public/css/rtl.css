@@ -139,3 +139,8 @@ header .nav-wrapper ul {
 		left:20px !important;
 		right:auto;
 	}
+	
+	
+.department-v2 .department-tab .department-content h2, .footer-col h3  {
+    font-family:kufi;
+}

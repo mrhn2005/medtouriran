@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'kufi';
+    src: url('../fonts/DroidKufi-Regular.woff');
+    
+}
 .social-pad{
 	padding-top:5px;
 }
@@ -51,7 +56,7 @@
 
 header .logo img {
     max-height: 38px;
-    margin: 32px 0 10px;
+    margin: 10px 0 10px;
 }
 
 .service-v1 .item {
@@ -236,3 +241,17 @@ header .logo img {
     }
 }
 
+header .nav-wrapper {
+    justify-content: center;
+    display: flex;
+}
+
+header .logo {
+     align-items: center; 
+    justify-content: center;
+    display: flex;
+}
+
+.top-contact .list{
+  font-family: "Open Sans", sans-serif;
+}

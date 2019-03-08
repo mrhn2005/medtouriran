@@ -9,7 +9,7 @@
 				    	@foreach (config('app.locales') as $localeKey => $locale)
 				            @if ($localeKey != app()->getLocale())
 				                <a class="btn btn-light flag-link" href="{{ route('locale.switch', $localeKey) }}">
-				                	<img class="flag" src="/images/flags/{{$locale}}.jpg" />
+				                	
 				                    {{ $locale }}
 				                </a>
 				            @endif

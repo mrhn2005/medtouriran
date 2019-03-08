@@ -1,8 +1,4 @@
-@font-face {
-    font-family: 'kufi';
-    src: url('../fonts/DroidKufi-Regular.woff');
-    
-}
+
 
 body{
     font-family: kufi !important;
@@ -144,3 +140,4 @@ header .nav-wrapper ul {
 .department-v2 .department-tab .department-content h2, .footer-col h3  {
     font-family:kufi;
 }
+

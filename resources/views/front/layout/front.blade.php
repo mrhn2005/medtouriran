@@ -50,6 +50,7 @@
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/responsive.css">
 	<link rel="stylesheet" href="/css/toastr.min.css">
+	<link rel="stylesheet" href="/css/custom.css?t={{time()}}"/>
 	@if(!$is_rtl)
 		<link rel="stylesheet" href="/css/ltr.css?t={{time()}}"/>
 		
@@ -60,7 +61,7 @@
 		<link rel="stylesheet" href="/css/rtl.css?t={{time()}}"/>
 	@endif
 	
-	<link rel="stylesheet" href="/css/custom.css?t={{time()}}"/>
+	
 	<!--<script src="/js/modernizr.min.js"></script>-->
     
     @yield('style')

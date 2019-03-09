@@ -1,0 +1,526 @@
+# Copyright (C) 2017 Claudio Sanches
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Disto Functions\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/plugins/woocommerce-domination/\n"
+"POT-Creation-Date: 2019-02-14 08:02+0330\n"
+"PO-Revision-Date: 2019-02-14 10:58+0330\n"
+"Last-Translator: \n"
+"Language-Team: Tempfa <support@tempfa.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: esc_html__;_e;esc_attr;esc_html_e;esc_attr__;_n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cus-metabox.php:95
+msgid "Upload or Edit"
+msgstr "بارگذاری یا ویرایش"
+
+#: cus-metabox.php:97
+msgid "Remove All"
+msgstr "حذف همه"
+
+#: cus-metabox.php:200
+msgid "Single Post Options"
+msgstr "تنظیمات نوشته"
+
+#: cus-metabox.php:206
+msgid "Enable Full Post"
+msgstr "فعال کردن نوشته تمام‌صفحه"
+
+#: cus-metabox.php:207
+msgid "Check this to enable single post content full."
+msgstr "اگر می‌خواهید نوشته به‌صورت تمام‌صفحه نمایش داده شود، فعال کنید."
+
+#: cus-metabox.php:213
+msgid "Post Subtitle"
+msgstr "زیرنویس نوشته"
+
+#: cus-metabox.php:219
+msgid "Select Post Layout"
+msgstr "انتخاب طرح نوشته"
+
+#: cus-metabox.php:227
+msgid "Full Width Image With Caption Overlay Center"
+msgstr "تصویر تمام‌عرض بهمراه عنوان وسط تصویر"
+
+#: cus-metabox.php:228
+msgid "Full Width Image With Caption Overlay Bottom"
+msgstr "تصویر تمام‌عرض بهمراه عنوان پایین تصویر"
+
+#: cus-metabox.php:229
+msgid "Full Width Image With Caption above"
+msgstr "تصویر تمام‌عرض بهمراه عنوان بالا"
+
+#: cus-metabox.php:230
+msgid "Full Width Only Caption"
+msgstr "تمام‌عرض فقط عنوان"
+
+#: cus-metabox.php:231
+msgid "Full Width Caption With Post Format"
+msgstr "عنوان تمام‌عرض بهمراه ساختار نوشته"
+
+#: cus-metabox.php:232
+msgid "Caption Without Image"
+msgstr "عنوان بدون تصویر"
+
+#: cus-metabox.php:226
+msgid "Title Above Align Left"
+msgstr "عنوان بالا سمت راست"
+
+#: cus-metabox.php:225
+msgid "Title Below Align Left"
+msgstr "عنوان زیر سمت راست"
+
+#: cus-metabox.php:242
+msgid "Single Post Format"
+msgstr "ساختار نوشته"
+
+#: cus-metabox.php:249
+msgid "Quote title"
+msgstr "عنوان گفتاورد"
+
+#: cus-metabox.php:254
+msgid "Quote author"
+msgstr "نویسنده گفتاورد"
+
+#: cus-metabox.php:261
+msgid "Video Embed"
+msgstr "ویدیو جاسازی شده"
+
+#: cus-metabox.php:266
+msgid "Video link"
+msgstr "لینک ویدیو"
+
+#: cus-metabox.php:273
+msgid "Audio Embed"
+msgstr "صدای جاسازی شده"
+
+#: cus-metabox.php:278
+msgid "Audio link"
+msgstr "لینک صدا"
+
+#: cus-metabox.php:284
+msgid "gallery"
+msgstr "گالری"
+
+#: cus-metabox.php:298
+msgid "Post slider, feature post and page options"
+msgstr "اسلایدر نوشته، نوشته ویژه و تنظیمات برگه"
+
+#: cus-metabox.php:305
+msgid "Remove top margin"
+msgstr "حذف فاصله بالا"
+
+#: cus-metabox.php:306
+msgid "Check this to remove top margin"
+msgstr "برای حذف فاصله بالا فعال کنید"
+
+#: cus-metabox.php:312
+msgid "Pagination for grid layout"
+msgstr "صفحه‌بندی برای طرح گرید"
+
+#: post-like.php:158
+msgid " liked"
+msgstr " لایک‌شده"
+
+#: post-like.php:159
+msgid "Unlike"
+msgstr "آن‌لایک"
+
+#: post-like.php:163
+msgid "Like"
+msgstr "لایک"
+
+#: post-like.php:178 post-like.php:230
+msgid "You Like:"
+msgstr "شما لایک کردید:"
+
+#: post-like.php:202
+msgid "You don't like anything yet."
+msgstr "شما هنوز چیزی را لایک نکرده‌اید."
+
+#: post-like.php:262
+msgid "Today's Most Popular Posts"
+msgstr "نوشته‌های محبوب امروز"
+
+#: post-like.php:294
+msgid "This Month's Most Popular Posts"
+msgstr "نوشته‌های محبوب این ماه"
+
+#: post-like.php:326
+msgid "This Week's Most Popular Posts"
+msgstr "نوشته‌های محبوب این هفته"
+
+#: post-like.php:345
+msgid "Most Popular Posts"
+msgstr "نوشته‌های محبوب"
+
+#: view-post-counter.php:122
+msgid "Views"
+msgstr "بازدید"
+
+#: widget/about-us.php:16
+msgid "About us and social icons"
+msgstr "درباره ما و شبکه‌های اجتماعی"
+
+#: widget/about-us.php:17
+msgid "jellywp: About us"
+msgstr "دیستو: درباره ما"
+
+#: widget/about-us.php:186
+msgid "About us"
+msgstr "درباره ما"
+
+#: widget/about-us.php:192 widget/adswidget.php:79
+#: widget/category-widget.php:96 widget/comments.php:74
+#: widget/home-2main-right-list.php:180 widget/home-carousel.php:138
+#: widget/home-grid-right-list.php:148 widget/home-grid5.php:137
+#: widget/home-grid6.php:171 widget/home-main-post-below-2-grid.php:174
+#: widget/home-small-grid-overlay.php:158 widget/home-small-grid.php:179
+#: widget/popular.php:108 widget/recent-grid.php:109
+#: widget/recent-large.php:133 widget/recent-list-number.php:122
+#: widget/recent-small-number.php:123 widget/recent-small-overlay.php:129
+#: widget/recent-small.php:131 widget/slider-post.php:134
+msgid "Title:"
+msgstr "عنوان:"
+
+#: widget/about-us.php:198 widget/adswidget.php:91
+msgid "Image Url:"
+msgstr "آدرس تصویر:"
+
+#: widget/about-us.php:204
+msgid "Image sign Url:"
+msgstr "آدرس تصویر امضا:"
+
+#: widget/about-us.php:210
+msgid "Feed description:"
+msgstr "توضیحات فید:"
+
+#: widget/about-us.php:215
+msgid "Facebook Url:"
+msgstr "آدرس فیسبوک:"
+
+#: widget/about-us.php:221
+msgid "Google_plus Url:"
+msgstr "آدرس گوگل پلاس:"
+
+#: widget/about-us.php:226
+msgid "Behance Url:"
+msgstr "آدرس بی‌هنس:"
+
+#: widget/about-us.php:232
+msgid "Vimeo Url:"
+msgstr "آدرس ویمئو‌:"
+
+#: widget/about-us.php:237
+msgid "Youtube Url:"
+msgstr "آدرس یوتیوب:"
+
+#: widget/about-us.php:242
+msgid "tumblr Url:"
+msgstr "آدرس تامبلر:"
+
+#: widget/about-us.php:248
+msgid "Instagram Url:"
+msgstr "آدرس اینستاگرام:"
+
+#: widget/about-us.php:253
+msgid "Linkedin Url:"
+msgstr "آدرس لینکداین:"
+
+#: widget/about-us.php:259
+msgid "Pinterest Url:"
+msgstr "آدرس پین‌ترست:"
+
+#: widget/about-us.php:264
+msgid "Twitter Url:"
+msgstr "آدرس توییتر:"
+
+#: widget/about-us.php:270
+msgid "Blogger Url:"
+msgstr "آدرس بلاگر:"
+
+#: widget/about-us.php:275
+msgid "Deviantart Url:"
+msgstr "آدرس دیوینت آرت:"
+
+#: widget/about-us.php:281
+msgid "Dribble Url:"
+msgstr "آدرس دریبل:"
+
+#: widget/about-us.php:286
+msgid "Stumbleupon Url:"
+msgstr "آدرس Stumbleupon :"
+
+#: widget/about-us.php:292
+msgid "Dropbox Url:"
+msgstr "آدرس دراپ‌باکس:"
+
+#: widget/about-us.php:297
+msgid "RSS Url:"
+msgstr "آدرس RSS:"
+
+#: widget/about-us.php:303
+msgid "Skype Url:"
+msgstr "آدرس اسکایپ:"
+
+#: widget/about-us.php:308
+msgid "Wordpress Url:"
+msgstr "آدرس وردپرس:"
+
+#: widget/about-us.php:314
+msgid "Yahoo Url:"
+msgstr "آدرس یاهو:"
+
+#: widget/about-us.php:319
+msgid "Flickr Url:"
+msgstr "آدرس فلیکر:"
+
+#: widget/about-us.php:324
+msgid "Sound Cloud Url:"
+msgstr "آدرس سوندکلود:"
+
+#: widget/adswidget.php:16 widget/adswidget.php:73
+msgid "Advertisement"
+msgstr "تبلیغات"
+
+#: widget/adswidget.php:17
+msgid "jellywp: place your ads here"
+msgstr "دیستو: محل تبلیغات شما"
+
+#: widget/adswidget.php:85
+msgid "Link Url:"
+msgstr "آدرس لینک:"
+
+#: widget/category-widget.php:16
+msgid "Dispaly Category With Image"
+msgstr "نمایش دسته با تصویر"
+
+#: widget/category-widget.php:17
+msgid "jellywp: Category Image"
+msgstr "دیستو: دسته تصویری"
+
+#: widget/category-widget.php:90
+msgid "Categories"
+msgstr "دسته‌ها"
+
+#: widget/category-widget.php:102
+msgid "Number Of Category:"
+msgstr "تعداد دسته‌ها:"
+
+#: widget/comments.php:15
+msgid "Displays recent comments."
+msgstr "آخرین نظرات را نمایش می‌دهد."
+
+#: widget/comments.php:16
+msgid "jellywp: Recent Comments"
+msgstr "دیستو: آخرین نظرات"
+
+#: widget/comments.php:51
+msgid "On"
+msgstr "فعال"
+
+#: widget/comments.php:78
+msgid "How many entries to display?"
+msgstr "چند نوشته نمایش داده شود؟"
+
+#: widget/home-2main-right-list.php:17 widget/home-grid-right-list.php:17
+#: widget/home-main-post-below-2-grid.php:17
+msgid "Display Recent post with many layout"
+msgstr "آخرین نوشته‌ها را با چند طرح نمایش می‌دهد"
+
+#: widget/home-2main-right-list.php:20
+msgid "jellywp: Home 2 main right list"
+msgstr "دیستو: خانه 2 اصلی لیست راست"
+
+#: widget/home-2main-right-list.php:184 widget/home-grid-right-list.php:152
+#: widget/home-grid5.php:141 widget/home-grid6.php:175
+#: widget/home-main-post-below-2-grid.php:178 widget/recent-grid.php:117
+#: widget/recent-large.php:141 widget/recent-list-number.php:130
+#: widget/recent-small-number.php:131 widget/recent-small-overlay.php:137
+#: widget/recent-small.php:139 widget/slider-post.php:142
+msgid "Offset posts:"
+msgstr "آف‌ست نوشته:"
+
+#: widget/home-2main-right-list.php:192 widget/home-carousel.php:162
+#: widget/home-grid-right-list.php:160 widget/home-grid5.php:149
+#: widget/home-grid6.php:183 widget/home-list-medium.php:151
+#: widget/home-main-post-below-2-grid.php:186
+#: widget/home-main-right-list.php:174 widget/home-newsticker.php:121
+#: widget/home-slider-tab.php:197 widget/home-slider.php:153
+#: widget/home-small-grid-overlay.php:228 widget/home-small-grid.php:262
+#: widget/recent-grid.php:122 widget/recent-large.php:146
+#: widget/recent-list-number.php:135 widget/recent-small-number.php:136
+#: widget/recent-small-overlay.php:142 widget/recent-small.php:147
+#: widget/slider-post.php:147
+msgid "Choose your category:"
+msgstr "انتخاب دسته:"
+
+#: widget/home-carousel.php:16 widget/home-small-grid-overlay.php:16
+#: widget/home-small-grid.php:16
+msgid "Displays Category Posts."
+msgstr "نمایش نوشته‌های دسته."
+
+#: widget/home-carousel.php:19
+msgid "jellywp: Home Carousel"
+msgstr "دیستو: خانه چرخ‌وفلکی"
+
+#: widget/home-carousel.php:129
+msgid "Home Carousel"
+msgstr "خانه چرخ‌وفلکی"
+
+#: widget/home-carousel.php:144 widget/home-small-grid-overlay.php:164
+#: widget/home-small-grid.php:185
+msgid "Posts Per Page:"
+msgstr "تعداد نوشته در برگه:"
+
+#: widget/home-grid-right-list.php:20
+msgid "jellywp: Home grid with right list"
+msgstr "دیستو: خانه گرید بهمراه لیست چپ"
+
+#: widget/home-grid5.php:17
+msgid "Display Grid 5 post"
+msgstr "5 نوشته را بصورت گرید نمایش میدهد"
+
+#: widget/home-grid5.php:20
+msgid "jellywp: Home Grid 5 Post"
+msgstr "دیستو: خانه گرید 5 نوشته"
+
+#: widget/home-grid6.php:17
+msgid "Display Grid 6 post"
+msgstr "6 نوشته را بصورت گرید نمایش می‌دهد"
+
+#: widget/home-grid6.php:20
+msgid "jellywp: Home Grid 6 Post"
+msgstr "دیستو: خانه گرید 6 نوشته"
+
+#: widget/home-list-medium.php:17 widget/home-main-right-list.php:17
+msgid "Display list post."
+msgstr "لیست نوشته‌ها را نمایش می‌دهد"
+
+#: widget/home-list-medium.php:20
+msgid "jellywp: Home list post"
+msgstr "دیستو: خانه لیست نوشته"
+
+#: widget/home-main-post-below-2-grid.php:20
+msgid "jellywp: Home main below grid"
+msgstr "دیستو: خانه زیر گرید"
+
+#: widget/home-main-right-list.php:20
+msgid "Jellywp: Home Main Right List"
+msgstr "دیستو: خانه لیست چپ"
+
+#: widget/home-newsticker.php:17
+msgid "Display Home post Newsticker"
+msgstr "ابزارک آخرین خبرها را نمایش میدهد"
+
+#: widget/home-newsticker.php:20
+msgid "jellywp: Home newsticker"
+msgstr "دیستو: خانه آخرین خبرها"
+
+#: widget/home-slider-tab.php:17 widget/home-slider.php:17
+msgid "Display Home post slider"
+msgstr "اسلایدر نوشته خانه را نمایش می‌دهد"
+
+#: widget/home-slider-tab.php:20
+msgid "jellywp: Home post slider tab"
+msgstr "دیستو: تب اسلایدر نوشته خانه"
+
+#: widget/home-slider.php:20
+msgid "jellywp: Home post slider"
+msgstr "دیستو: اسلایدر نوشته خانه"
+
+#: widget/home-small-grid-overlay.php:19
+msgid "jellywp: Home Grid Post Overlay"
+msgstr "دیستو: خانه گرید نوشته روی تصویر"
+
+#: widget/home-small-grid-overlay.php:147 widget/home-small-grid.php:166
+msgid "Home Small Grid"
+msgstr "خانه گرید کوچک"
+
+#: widget/home-small-grid.php:19
+msgid "jellywp: Home Grid Post"
+msgstr "دیستو: خانه نوشته گرید"
+
+#: widget/popular.php:16
+msgid "Display a list of popular posts"
+msgstr "یک لیست از نوشته های محبوب را نمایش می‌دهد"
+
+#: widget/popular.php:17
+msgid "jellywp: popular post"
+msgstr "دیستو: نوشته‌های محبوب"
+
+#: widget/popular.php:103
+msgid "Popular Posts"
+msgstr "نوشته‌های محبوب"
+
+#: widget/popular.php:113
+msgid "Number of posts:"
+msgstr "تعداد نوشته‌ها:"
+
+#: widget/recent-grid.php:17
+msgid "Display grid of recent post."
+msgstr "یک گرید از آخرین نوشته‌ها نمایش می‌دهد."
+
+#: widget/recent-grid.php:19
+msgid "jellywp: Recently grid Posts"
+msgstr "دیستو: گرید آخرین نوشته‌ها"
+
+#: widget/recent-grid.php:113 widget/recent-large.php:138
+#: widget/recent-list-number.php:126 widget/recent-small-number.php:127
+#: widget/recent-small-overlay.php:133 widget/recent-small.php:135
+#: widget/slider-post.php:139
+msgid "Number of posts to show:"
+msgstr "تعداد نوشته ها برای نمایش:"
+
+#: widget/recent-large.php:17
+msgid "Display post post large on widget."
+msgstr "ابزارک آخرین نوشته‌های بزرگ را نمایش می‌دهد"
+
+#: widget/recent-large.php:19
+msgid "jellywp: Post large or menu post"
+msgstr "دیستو: نوشته بزرگ یا نوشته فهرست"
+
+#: widget/recent-list-number.php:16 widget/recent-small-number.php:17
+#: widget/recent-small-overlay.php:17 widget/recent-small.php:17
+msgid "Display a list of recent post."
+msgstr "یک لیست از آخرین نوشته‌ها را نمایش می‌دهد."
+
+#: widget/recent-list-number.php:19
+msgid "jellywp: Recently list number"
+msgstr "دیستو: لیست آخرین نوشته‌ها بهمراه عدد"
+
+#: widget/recent-main-list.php:17
+msgid "Display main post with list of recent post."
+msgstr "نوشته اصلی بهمراه یک لیست از آخرین نوشته‌ها را نمایش می‌دهد."
+
+#: widget/recent-main-list.php:19
+msgid "jellywp: main post images with list post"
+msgstr "دیستو: نوشته اصلی بهمراه لیست نوشته‌ها"
+
+#: widget/recent-small-number.php:20
+msgid "jellywp: Recently Posts Number"
+msgstr "دیستو: آخرین نوشته‌ها بهمراه عدد"
+
+#: widget/recent-small-overlay.php:20
+msgid "jellywp: Recently Posts Overlay"
+msgstr "دیستو: آخرین نوشته‌ها روی تصویر"
+
+#: widget/recent-small.php:19
+msgid "jellywp: Recently Posts"
+msgstr "دیستو: آخرین نوشته‌ها"
+
+#: widget/slider-post.php:17
+msgid "Display slider on widget"
+msgstr "یک اسلایدر را نمایش می‌دهد"
+
+#: widget/slider-post.php:19
+msgid "jellywp: Widget slider"
+msgstr "دیستو: ابزارک اسلایدر"

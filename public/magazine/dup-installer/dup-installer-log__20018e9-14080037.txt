@@ -1,0 +1,38 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 01:17:57
+* VERSION: 1.3.4
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PHP:		7.1.25-1+ubuntu14.04.1+deb.sury.org+1 | SAPI: apache2handler
+PHP MEMORY:	5000M | SUHOSIN: disabled
+SERVER:		Apache/2.4.7 (Ubuntu)
+DOC ROOT:	/home/ubuntu/workspace/public/magazine
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://medtouriran-mrhn2005.c9users.io/magazine/dup-installer/main.installer.php
+SAFE MODE :	0
+CONFIG MODE :	NEW
+--------------------------------------
+PRE-EXTRACT-CHECKS
+--------------------------------------
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20190214_disto_20018e9c363d32028534_20190214080037_archive.zip
+SIZE:	320.23MB
+
+
+** PACKAGE EXTRACTION IS IN MANUAL MODE ** 
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 01:17:57 - RUNTIME: 0.2702 sec.

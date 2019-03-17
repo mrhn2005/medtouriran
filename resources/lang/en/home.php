@@ -31,5 +31,6 @@ return [
     "phone_number"=>"Phone Number",
     "submit"=>"Submit",
     "message"=>"Message",
-    "book_now"=>"Book Now"
+    "book_now"=>"Book Now",
+    "special_services"=>"Special Services"
 ];

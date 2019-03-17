@@ -137,7 +137,8 @@ header .nav-wrapper ul {
 	}
 	
 	
-.department-v2 .department-tab .department-content h2, .footer-col h3  {
-    font-family:kufi;
+.department-v2 .department-tab .department-content h2, .footer-col h3 ,.department-content h3 {
+    font-family:kufi !important;
 }
+
 

@@ -32,7 +32,7 @@
 												<p>
 												    {{$category->getTranslatedAttribute('excerpt')}}
 												</p>
-												<h3>Special Services:</h3>
+												<h3>{{__('home.special_services')}}:</h3>
 												<div class="row">
 												    @foreach ($category->children->chunk(3) as $chunk)
 													<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
